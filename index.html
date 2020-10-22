@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+html {
+  box-sizing: border-box; block-size: auto;
+}
+.iconDetails {
+  margin-left:30%;
+  float:left; 
+  height:200px;
+  width:200px; 
+ 
+} 
+
+.container2 {
+    width:100%;
+    height: auto;
+    text-shadow: 2px 2px #fdf9f9;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.foot{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 5;
+}
+
+
+
+    
+
+
+.container3{
+  
+    padding-left: 10%;
+    
+
+}
+
+.container5{
+    padding-left: 30%;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttons {
+  background-color: #383b38;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttons:hover {
+  background-color: #555;
+}
+
+body {
+  background: rgba(104, 170, 247, 0.3)
+}
+
+#box {
+  border: 1px solid;
+  padding: 7px;
+  box-shadow: 3px 8px;
+}
+
+table, td, th {
+    border: 1px solid rgb(245, 4, 4);
+    text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.title {
+  color: grey;
+}
+
+
+
+
+.foot::after, .row::after {
+  content: "   ";
+  clear: both;
+  display: table;
+}
+
+
+
+.column {
+  float: left;
+  width: 45%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class='container2'>
+        <div>
+            <img src="cartomandu1.png" class='iconDetails'>
+        </div>  
+    <div style='margin-left:60px;'>
+    <h1 style="font-size: 400%; padding-top: 4%;">CartoMandu</h1>
+    <h3 style="color: rgb(247, 20, 20);"><em>"Mapping the World!"</em></h3>
+    </div>
+</div>
+<br><br>
+
+<div class='container3'>
+    <h2 style="color: rgb(156, 72, 11);">Please enter the following details:</h2>
+<div id="box"><h4>To be filled by the project supervisor</h4></div><br><br>
+<form>
+    <label for="fname">Name of the Project:</label><br>
+    <input type="text" id="fname"><br><br>
+    <label for="description">Description of the project:</label><br>
+    <textarea id="description" rows="4" cols="50"></textarea><br><br>
+    <label for="supervisor">Name of the Project Supervisor:</label><br>
+    <input type="supervisor" id="fname"><br><br>
+    <label for="employees">Number of Employees assigned:</label><br>
+    <input type="employees" id="fname"><br><br>
+
+    <label for="date">Deadline of the project:</label>
+    <input type="date" id="date"><br><br>
+
+    <label for="color">Color-code of the project</label>
+    <input type="color" id="color"><br><br>
+
+    <label for="email"><strong>Email address of the supervisor:</strong> </label>
+    <input type="email" id="email"><br><br>
+
+    <label for="telephone">Telephone number of the supervisor:</label>
+    <input type="number" id="telephone"><br><br>
+
+    <input type="submit" class="button">
+    
+</div>
+
+</form>
+
+<div class="container5">
+<h3>Here is the list of our previous employees:</h3>
+<table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Email Address</th>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>Griffin</td>
+      <td><em>pe.grif@cartomadnu.np</em></td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+      <td><em>lo.grif@cartomandu.de</em></td>
+    </tr>
+    <tr>
+      <td>Joe</td>
+      <td>Swanson</td>
+      <td><em>jo.Swan@cartomandu.de</em></td>
+    </tr>
+    <tr>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td><em>cl.brow@cartomandu.de</em></td>
+    </tr>
+  </table>
+
+</div><br><br>
+
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Freelancing team on Remote Sensing, GIS, Cartography and Photogrammetry</p>
+</div>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      
+<div class="foot">
+        <img src="deepak.jpg" alt="Deepak" style="width: 50%" >
+        <h2>Deepak Parajuli</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Bachelors in Geomatics Engineering</p>
+        <p>pade1011@hs-karlsruhe.de</p>
+        
+        <a href="mailto:pade1011@hs-karlsruhe.de"><p><button class="buttons">Contact</button></p></a>
+      </div>
+    </div>
+    
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      
+      <div class="foot">
+        <img src="subindra.jpg" alt="Deepak" style="width: 50%">
+        <h2>Subindra Khatri</h2>
+        <p class="title">Web Developer</p>
+        <p>Bachelors in Computer Engineering</p>
+        <p>khatrisubindra12@gmail.com</p>
+        
+        <a href="mailto:khatrisubindra12@gmail.com"><p><button class="buttons">Contact</button></p></a>
+      </div>
+    </div>
+</div>
+    
+</body>
+</html>
